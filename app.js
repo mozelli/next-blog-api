@@ -9,6 +9,6 @@ app.get('/', (req, res) => {
 
 app.use(require('./src/router'));
 
-app.listen(4000, () => {
+app.listen(process.env.PORT, () => {
     console.log(`Running on port ${ process.env.PORT }`);
 } );
