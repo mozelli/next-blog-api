@@ -11,11 +11,13 @@
   "author": "João Mozelli Neto <joaomozelli@hotmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
-    "firebase": "^9.6.10"
+    "mongoose": "^6.2.9"
   },
   "devDependencies": {
+    "@types/mongoose": "^5.11.97",
     "nodemon": "^2.0.15"
   }
 }
